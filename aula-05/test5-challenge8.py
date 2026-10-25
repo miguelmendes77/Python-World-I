@@ -1,6 +1,7 @@
 import pygame
 
 pygame.init()
-pygame.mixer.music.load('Nils Frahm - You.mp3')
+arquivo = input('Digite o caminho do arquivo de áudio (.mp3): ')
+pygame.mixer.music.load(arquivo)
 pygame.mixer.music.play()
 pygame.event.wait()
