@@ -23,9 +23,8 @@ Requer Python 3. Para rodar qualquer exercício:
 python aula-04/test4-challenge1.py
 ```
 
-O desafio 8 da `aula-05` usa a biblioteca `pygame` para tocar um arquivo de áudio que está na própria pasta. Instale com `pip install pygame` e rode o script de dentro da pasta `aula-05`, pois o caminho do áudio é relativo:
+O desafio 8 da `aula-05` usa a biblioteca `pygame` para tocar um arquivo de áudio. Instale com `pip install pygame`, rode o script e informe o caminho de um arquivo `.mp3` seu quando ele pedir (nenhum áudio vem junto com o repositório):
 
 ```bash
-cd aula-05
-python test5-challenge8.py
+python aula-05/test5-challenge8.py
 ```
